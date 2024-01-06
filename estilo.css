@@ -1,0 +1,354 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #daa520;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    width: 100%;
+    background-color: #7c2248;
+    box-shadow: 0 15px 20px #d8bb72 ;
+    border: 2px solid #610028 ;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 45px;
+    color: #daa520;
+    text-shadow: 3px 0 10px #d8bb72;
+    text-transform: uppercase;
+    max-width: 100%;
+    font-family: Righteous;
+}
+
+.titulo:hover{
+    text-shadow: 5px 0 20px #d3bd85;
+    font-size: 48px;
+    transition: all 0.4s;
+}
+
+.subtitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: rgb(27, 27, 27);
+    text-shadow: 8px 0 7px #d6c18a ;
+    font-family: Righteous;
+    font-weight: bold;
+    margin-top: 1%;
+    letter-spacing: 1px;
+}
+
+
+.img-ebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-right: 5%;
+    margin-left: 5%;
+    
+    }
+
+.imagem-ebook{
+    display: inline-block;
+    width: 400px;
+    margin-top: 3%;
+    box-shadow: 0 0 35px black;
+    margin-right: 5%;
+}
+
+.imagem-ebook:hover{
+    width: 450px;
+    box-shadow: 0 0 35px rgb(255, 255, 255);
+    transition: all 1.3s;
+}
+
+.first-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+    font-family: Josefin Sans;
+    
+}
+
+.texto2{
+    color: #daa520;
+    background-color: #7c2248;
+    padding-top: 150px;
+    padding-bottom: 150px ;
+    margin-top: 100px;
+    border: 2px solid #610028 ;
+    box-shadow: 0 0 35px #000000 ;
+    text-shadow: 1px 0 5px rgb(0, 0, 0);;
+    text-align: center;
+    font-size: 30px;
+    font-family: Josefin Sans;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.texto2:hover{
+    box-shadow: 0 0 40px #ffffff ;
+    transition: all 1s;
+}
+
+.texto3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+    text-shadow: 1px 0 5px rgb(255, 255, 255);
+    color: #610028;
+    font-family: Josefin Sans;
+    
+}
+
+.img-2{
+    display: inline-block;
+    width: 600px;
+    box-shadow: 0 0 35px black;
+    margin-right: 5%;
+    
+}
+
+.img-2:hover{
+    box-shadow: 0 0 45px rgb(255, 255, 255);
+    transition: all 1s;
+}
+
+.texto4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 5%;
+    text-shadow: 5px 5px 1px rgb(0, 0, 0);
+    color: white;
+    font-family: Josefin Sans;
+    position: relative;
+    width: 100%;
+    box-shadow: 0 0 35px black;
+}
+
+.img-3{
+    display: inline-block;
+    width: 100%;
+    height: 550px;
+    opacity: 40%;
+    
+    
+}
+
+.legenda{
+    position: absolute;
+}
+
+.texto5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 90%;
+    height: 500px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    font-size: 25px;
+    background-color: #7c2248;
+    color: white;
+    border: 1px solid #200913;
+    border-radius: 200px;
+    text-shadow: 5px 5px 1px rgb(0, 0, 0);
+    box-shadow: 0 0 55px #fff2d2;
+    font-family: Josefin Sans;
+
+}
+
+.texto5:hover{
+    box-shadow: 0 0 75px #ffffff
+}
+
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background-color: #7c2248;
+    width: 600px;
+    margin-left: 28%;
+    margin-bottom: 90px;
+    height: 650px;
+    border: 3px solid #923e61;
+    border-radius: 20px;
+    box-shadow: 0 0 30px black;
+    font-family: Josefin Sans;
+}
+
+.formulario:hover{
+    box-shadow: 0 0 30px rgb(255, 255, 255);
+    transition: all 1s;
+}
+
+.formulario h2{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffcde2;
+    font-family: Josefin Sans;
+    font-size: 40px;
+    text-shadow: 2px 0 5px rgb(0, 0, 0);
+}
+
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form label{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+form input{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.4s;
+}
+
+form input:focus{
+    border-radius: 25px;
+    padding: 22px;
+}
+
+
+form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    background: transparent;
+    border: 2px solid white;
+    margin-bottom: 22px;
+    color: white;
+    transition: all 0.3s;  
+    font-family: Josefin Sans;
+}
+
+form button:hover{
+    background-color: #ff95c1;
+    border-radius: 20px;
+    border: 4px solid #7c2248;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/*Pagina de Obrigado*/
+
+ .main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #610028;
+    flex-direction: column;
+ }
+
+ .text10{
+    font-size: 50px;
+    color: #daa520;
+    text-shadow: 2px 0 15px #d1b05c;
+    margin-bottom: 40px;
+    margin-top: 200px;
+}
+
+.paragrafo{
+    color: #daa520;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 2px 0 10px #000000;
+}
+
+.btn{
+    padding: 15px 55px;
+    background: transparent;
+    text-decoration: none;
+    border: 2px solid #610028;
+    box-shadow: 0 0 55px #000000;
+    border-radius: 10px;
+    transition: all 0.3s;   
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+
+.btn:hover{
+    border-radius: 30px;
+    background-color: #daa520;  
+    color: black;
+   
+}
+
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(to bottom, #7c2248, #18060d);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #daa520;
+    font-size: 20px;
+}
+
+.footer h3{
+    justify-content: center;
+    align-items: center;
+}
+
+.footer h6{
+    justify-content: center;
+    align-items: center;
+    color: #daa520;
+    font-size: 20px;
+    padding-left: 200px;
+  }
+
+
